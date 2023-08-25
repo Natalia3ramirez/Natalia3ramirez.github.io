@@ -7,6 +7,45 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.content {
+  text-align: center;
+  /* padding: 100px 0; */
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  overflow: hidden; /* Hide overflow to create typing effect */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 3s steps(30) forwards, blink-caret 0.5s step-end infinite;
+  color: white; /* Set the color of the typing cursor */
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width (invisible) */
+  }
+  to {
+    width: 100%; /* End with full width (fully visible) */
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; /* Make the caret (border) invisible */
+  }
+  50% {
+    border-color: white; /* Make the caret white (visible) */
+  }
+}
+
+
+
 #footer-container p {
 	margin-bottom: 0;
 	font-size: small;
