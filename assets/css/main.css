@@ -7,6 +7,73 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#footer-container p {
+	margin-bottom: 0;
+	font-size: small;
+}
+
+
+#footer-container {
+	display: flex;
+	justify-content: center;
+	gap: 25px
+}
+
+#project {
+	margin-bottom: 10px;
+}
+
+#project img {
+	object-position: center top
+}
+
+.name-link {
+	display: flex;
+	justify-content: space-between;
+}
+
+.for-project {
+	display: flex;
+	justify-content: center;
+}
+
+.links span {
+	margin-right: 10px
+}
+
+
+
+#profile-img {
+	display: flex;
+	justify-content: center;
+	width: 250px;
+	margin-left: 30%
+}
+
+#skill-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+
+
+#skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px
+}
+
+
+.devicon {
+	font-size: xx-large;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1140,9 +1207,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1726,6 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+
